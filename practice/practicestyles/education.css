@@ -1,0 +1,16 @@
+head, body{
+    background-color: pink;
+    margin: 50px 100px 50px 100px
+}
+head{
+    text-align: center;
+}
+body{
+    text-align: left;
+}
+img{
+    width: 25%
+}
+.boxcontent{
+    width:600px
+}
