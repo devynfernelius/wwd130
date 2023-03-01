@@ -1,25 +1,31 @@
 body{
-    width: 600px;
+    width: 300px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
 }
-.city img{
+.city{
     grid-column: 1/4;
     grid-row: 1/2;
 }
 .main{
     grid-column: 1/4;
     grid-row: 2/3;
+    text-align: center;
 }
-.feet h3{
+.feet{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+h3{
     grid-column: 1/2;
-    grid-row: 3/4;
+    grid-row: 1/2;
 }
-.feet h4{
+h4{
     grid-column: 2/3;
-    grid-row: 3/4;
+    grid-row: 1/2;
 }
-.feet h5{
+h5{
     grid-column: 3/4;
-    grid-row: 3/4;
+    grid-row: 1/2;
 }
